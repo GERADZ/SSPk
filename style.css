@@ -1,0 +1,1361 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+
+
+/* ----------------------------------navebar ------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+   
+header{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/pv\ pv.jpg) repeat =none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 20s alternate infinite ease-in-out;
+   
+
+}
+
+.navbar{
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(10, 10, 10, 0.401);
+
+
+}
+.navbar a{
+    color:white ;
+    
+    
+}
+ .navbar .nav-lins ul li a{
+    position: relative;
+    margin: 0 25px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: sans-serif;
+    text-transform: capitalize;
+    color: rgb(252, 252, 252);
+}
+.navbar .nav-lins ul li a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    margin-top: 25px;
+    width: 0%;
+    height: 2px;
+    border-radius: 3px;
+}
+
+.navbar .nav-lins ul li a:hover ,
+ .navbar .nav-lins .HOME{
+  color: rgb(252, 206, 0);
+  transition: 0.5s;
+}
+.navbar .nav-lins .HOME::after,
+ .navbar .nav-lins ul li a:hover:after{
+    width: 100%;
+    background-color: rgb(252, 206, 0);
+    transition: 0.5s;
+
+}
+ .navbar .logo {
+    position: center;
+    padding-left: 40px;
+    height: 80px;
+}
+
+ 
+.navbar .nav-lins ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navbar .nav-lins{
+    display: flex;
+}
+
+.navbar .nav-lins ul h1 a{
+    font-size: 15px;
+    margin: 30px;
+    padding: 10px 40px ;
+    color:rgb(251, 251, 251) ;
+    background-color: transparent;
+    border: 1px solid rgb(249, 249, 249);
+    border-radius: 5px;
+  
+
+ }
+ .navbar .nav-lins ul h1 a:hover{
+    padding: 10px 40px ;
+    color:rgb(245, 159, 1) ;
+    background-color: transparent;
+    border: 1px solid rgb(245, 159, 1);
+    border-radius: 5px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+  .navbar .menu{
+    display: none;
+    position: absolute;
+    right: 99px;
+    top:33px ;
+    width: 25px;
+}
+
+
+
+
+
+
+@keyframes change {
+    0%{
+        background-image: url(img/pv\ b.jpg) ;
+    }
+    50%{
+        background-image: url(img/backo.jpg);
+    }
+    100%{
+        background-image: url(img/pv\ b.jpg);
+  
+    }
+    
+}
+
+
+
+
+/* text index page---------------------------------*/
+
+#text h2{
+    position: relative;
+    font-size: 14vh;
+    color: blue;
+    -webkit-text-stroke: 0.3vw black;
+    text-transform: uppercase;
+
+}
+#text h2 ::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: aqua;
+    -webkit-text-stroke: 0vh navajowhite;
+    border-right: 2px solid greenyellow;
+    overflow: hidden;
+    animation: ani 6s linear infinite;
+
+
+}
+
+@keyframes ani {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+    
+}
+#loggo .logoo{
+    position: center;
+    padding-left: 40px;
+    height: 600px;
+}
+
+
+
+
+
+/* buttom bar */
+
+#aa{
+    height: 50%;
+    width: 100%;
+    background-image:url(img/butom.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: visible;
+
+}
+
+#aa{
+    display: flex;
+    
+}
+
+
+#aa .col {
+    position: relative;
+    display: flex;
+    color: white;
+    
+}
+#aa .col .folowus .icons{
+    position: relative;
+    color: white;
+    
+}
+#aa .col .logoimg{
+    position: relative;
+    height: 50px;
+}
+#aa .col ul{
+    padding: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------navebar ------------------------------------------*/
+
+
+
+/* ----------------------------------home page------------------------------------------*/
+
+
+.homePageDemare{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.homePageDemare .demareBckground {
+    position: relative;
+    height: 60%;
+    width: 80%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.224) ,rgba(0, 46, 0, 0.241),rgba(19, 56, 0, 0.264),rgba(0, 74, 2, 0.275),rgba(0, 39, 0, 0.229),rgba(0, 0, 0, 0.224),rgba(0, 0, 0, 0.184) );
+    top: 30%;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+
+    
+}
+.homePageDemare .demareBckground .demareBtns {
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.homePageDemare .demareBckground .demareBtns .onlineBtn{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 20%;
+
+    
+}
+.homePageDemare .demareBckground .demareBtns .offlineBtn{
+    position: relative;
+    margin-top: 200px;
+    margin-right: 20%;
+    
+}
+.homePageDemare .demareBckground .demareBtns .onlineBtn .online{
+    padding: 20px 14px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animat 10s linear infinite;
+    color: white;
+    font-size: larger;
+
+}
+
+.homePageDemare .demareBckground .demareBtns .offlineBtn .offline{
+    top: 300px;
+    padding: 20px 14px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(48, 0, 0, 0.45) ,rgba(102, 0, 0, 0.45),rgba(131, 1, 1, 0.45),rgba(78, 0, 0, 0.45),rgba(66, 0, 0, 0.45),rgba(32, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
+    background-size: 400%;
+    animation: animat 10s linear infinite;
+    color: white;
+    font-size: larger;
+
+}
+@keyframes animat {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+.online-menu h3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    
+}
+.offline-menu h3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    
+}
+.chooseBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.chooseBox .CSPbtn .CSP{
+    padding: 20px 15px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(48, 0, 0, 0.45) ,rgba(102, 0, 0, 0.45),rgba(131, 1, 1, 0.45),rgba(78, 0, 0, 0.45),rgba(66, 0, 0, 0.45),rgba(32, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
+    background-size: 400%;
+    animation: animat 10s linear infinite;
+    color: white;
+    font-size: larger;
+
+}
+.chooseBox .PVbtn .PV{
+    padding: 20px 15px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(48, 0, 0, 0.45) ,rgba(102, 0, 0, 0.45),rgba(131, 1, 1, 0.45),rgba(78, 0, 0, 0.45),rgba(66, 0, 0, 0.45),rgba(32, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
+    background-size: 400%;
+    animation: animat 10s linear infinite;
+    color: white;
+    font-size: larger;
+
+}
+.chooseBox .lgIN{
+    padding: 20px 14px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animat 10s linear infinite;
+    color: white;
+    font-size: larger;
+
+}
+
+.menuprojects{
+    position: absolute;
+    height: 200px;
+    width: 80%;
+    top: 30%;
+    backdrop-filter: blur(0px);
+
+}
+
+
+
+
+.offline-menu{
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(48, 0, 0, 0.45) ,rgba(102, 0, 0, 0.45),rgba(131, 1, 1, 0.45),rgba(78, 0, 0, 0.45),rgba(66, 0, 0, 0.45),rgba(32, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
+    right:0;
+    background-size: 400%;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    animation: animat 10s linear infinite;
+    transition: all 0.5s ease;
+    margin-top: -1000px;
+
+
+}
+.online-menu{
+    position: absolute;
+    height: 80%;
+    width: 35%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    left: 0;
+    background-size: 400%;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    animation: animat 10s linear infinite;
+    transition: all 0.5s ease;
+    margin-top: -1000px;
+
+
+   
+
+}
+.offline-menu.cheek-offline-menu {
+    margin-top: 0px;
+    position: fixed;
+        
+}
+.online-menu.cheek-online-menu {
+    margin-top: 0px;
+    position: fixed;
+        
+}
+
+
+
+
+
+
+@keyframes animat {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+
+/* menu csp project of*/
+
+.menuprojects_CSP_off{
+    position: absolute;
+    height: 55%;
+    width: 70%;
+    top: 25vh;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(48, 0, 0, 0.45) ,rgba(102, 0, 0, 0.45),rgba(131, 1, 1, 0.45),rgba(78, 0, 0, 0.45),rgba(66, 0, 0, 0.45),rgba(32, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
+    background-size: 400%;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    animation: animat 10s linear infinite;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1000px;
+
+}
+.Selector_menu_CSP_off{
+    margin-top: 0px;
+    position: fixed;
+    
+}
+.menuprojects_CSP_off .top_menu_csp{
+    position: relative;
+    color: white;
+    font-family: bold;
+    padding: 10px;
+    margin: 20px;
+}
+ .menuprojects_CSP_off .menu_csp{
+    position: relative;
+    color: white;
+    font-family: bold;
+    display: flex;
+
+}
+ .menuprojects_CSP_off .menu_csp .informations_of_menu{
+margin: 10px;
+
+}
+ .menuprojects_CSP_off .menu_csp .button__csp_menu {
+margin:10px ;
+width: 40vw;
+}
+ .menuprojects_CSP_off .menu_csp .button__csp_menu .towPtowD{
+    margin-top: 6px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt 15s linear infinite;
+    color: white;
+    font-size: 20px;
+}
+
+.menuprojects_CSP_off .menu_csp .button__csp_menu .towPthreeD{
+    margin-top: 6px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt 15s linear infinite;
+    color: white;
+    font-size: 20px;
+}
+ .menuprojects_CSP_off .menu_csp .button__csp_menu .towPfourD{
+    margin-top: 6px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt 15s linear infinite;
+    color: white;
+    font-size: 20px;
+}
+
+.menuprojects_CSP_off  .cancel_menu_csp .cancel{
+    padding: 20px 14px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(48, 0, 0, 0.45) ,rgba(102, 0, 0, 0.45),rgba(131, 1, 1, 0.45),rgba(78, 0, 0, 0.45),rgba(66, 0, 0, 0.45),rgba(32, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
+    background-size: 400%;
+    animation: animatt 15s linear infinite;
+    color: white;
+    font-size: larger;
+ }
+
+    
+
+    
+    @keyframes animatt {
+        0%{
+            background-position: 0%;
+        }
+        
+        100%{
+            background-position: 400%;
+        }
+        
+        
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+    /* menu pv project of*/
+
+.menuprojects_pv_off{
+    position: absolute;
+    height: 55%;
+    width: 70%;
+    top: 25vh;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(48, 0, 0, 0.45) ,rgba(102, 0, 0, 0.45),rgba(131, 1, 1, 0.45),rgba(78, 0, 0, 0.45),rgba(66, 0, 0, 0.45),rgba(32, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
+    background-size: 400%;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    animation: animat 10s linear infinite;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1000px;
+
+}
+.Selector_menu_pv_off{
+    margin-top: 0px;
+    position: fixed;
+    
+}
+.menuprojects_pv_off .top_menu_pv{
+    position: relative;
+    color: white;
+    font-family: bold;
+    padding: 10px;
+    margin: 20px;
+}
+ .menuprojects_pv_off .menu_pv{
+    position: relative;
+    color: white;
+    font-family: bold;
+    display: flex;
+
+}
+ .menuprojects_pv_off .menu_pv .informations_of_menu{
+margin: 10px;
+
+}
+ .menuprojects_pv_off .menu_pv .button__pv_menu {
+margin:10px ;
+width: 40vw;
+}
+ .menuprojects_pv_off .menu_pv .button__pv_menu .towPtowD{
+    margin-top: 6px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt 15s linear infinite;
+    color: white;
+    font-size: 20px;
+}
+
+.menuprojects_pv_off .menu_pv .button__pv_menu .towPthreeD{
+    margin-top: 6px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt 15s linear infinite;
+    color: white;
+    font-size: 20px;
+}
+ .menuprojects_pv_off .menu_pv .button__pv_menu .towPfourD{
+    margin-top: 6px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt 15s linear infinite;
+    color: white;
+    font-size: 20px;
+}
+
+.menuprojects_pv_off  .cancel_menu_pv .cancelpv{
+    padding: 20px 14px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(48, 0, 0, 0.45) ,rgba(102, 0, 0, 0.45),rgba(131, 1, 1, 0.45),rgba(78, 0, 0, 0.45),rgba(66, 0, 0, 0.45),rgba(32, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
+    background-size: 400%;
+    animation: animatt 15s linear infinite;
+    color: white;
+    font-size: larger;
+ }
+
+    
+
+    
+    @keyframes animatt {
+        0%{
+            background-position: 0%;
+        }
+        
+        100%{
+            background-position: 400%;
+        }
+        
+        
+    }
+
+
+
+
+
+
+
+        
+/* ----------------------------------home page------------------------------------------*/
+
+/* ----------------------------------contact us------------------------------------------*/
+
+
+
+
+/* ----------------------------------contact us------------------------------------------*/
+
+
+/* ----------------------------------downlowad the app-----------------------------------*/
+
+
+.downloadpage .backdowlnoad {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    background-color: rgba(1, 1, 47, 0.226);
+    backdrop-filter: blur(7px);
+    border-radius: 18px;
+    margin: 10%;
+    margin-top: 110px;
+   
+
+}
+.downloadpage .backdowlnoad h1{
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;   
+
+}
+.downloadpage .backdowlnoad .downloadbtn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    padding: 30px 50px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animat 10s linear infinite;
+    color: white;
+    font-size: larger;
+
+}
+@keyframes animat {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+
+/* ----------------------------------downlowad the app-----------------------------------*/
+
+
+/* ----------------------------------register page------------------------------------------*/
+
+
+
+
+
+
+.registercontainer{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(237, 5, 5, 0.06);
+    
+
+
+
+}
+.registercontainer .backg{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 130px;
+    width: 90%;
+    height: 70%;
+    background: linear-gradient(45deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 85, 0, 0.45),rgba(35, 104, 0, 0.45),rgba(0, 136, 5, 0.45),rgba(0, 68, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    animation: animationnackgroundloginpage 30s linear infinite;
+
+
+}
+
+
+@keyframes animationnackgroundloginpage {
+    0%{
+        background-position: 0% ;
+    }
+    100%{
+        background-position: 400% ;
+    }
+    
+}
+
+.registercontainer .backg .logintext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 40px;
+    top: 35%;
+    
+
+}
+.registercontainer .backg .logintext h1{
+    position: relative;
+    font-size: 50px;
+    font-family: bold;
+    color: white;
+}  
+.registercontainer .backg .logintext h2{
+    position: relative;
+    font-family: bold;
+    color: white;
+}  
+.registercontainer .backg .logintext P{
+    position: relative;
+    font-family: bold;
+    padding: 6px;
+    width: 40%;
+    height: 10vh;
+    color: white;
+} 
+
+.registercontainer .backg .logintext .folowus{
+    position: relative;
+    width: 40%;
+    height: 10vh;
+    color: white;
+} 
+.registercontainer .backg .logintext .folowus i{
+   padding: 5px;
+   color: white;
+} 
+
+/* input register page */
+
+.registercontainer .backg .registerinput{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: rgba(1, 1, 1, 0.13);
+    backdrop-filter: blur;
+    height: 100%;
+    padding-inline: 10vw;
+    border-top-right-radius: 10px;   
+    border-bottom-right-radius: 10px;
+
+
+}
+.registercontainer .backg .registerinput h2{
+    position: relative;
+    font-size: 30px;
+    font-family: bold;
+    margin: 30px;
+    color: white;
+    
+
+} 
+.registercontainer .backg .registerinput .inputbox {
+position: relative;
+width:  300px;
+height: 20%;
+border-bottom: 2px solid rgb(123, 123, 123);
+margin: 10px 0;
+
+}
+
+
+.registercontainer .backg .registerinput .inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    }
+
+    .registercontainer .backg .registerinput .inputbox label{
+       position: absolute;
+       top: 25px;
+       right: -45px;
+       transform: translate(-50px);
+       transition: 0.5s ease;
+       color: rgba(179, 179, 179, 0.591);
+    }
+
+    .registercontainer .backg .registerinput .inputbox input:focus~label,
+    .registercontainer .backg .registerinput .inputbox input:valid~label{
+      top: -5px;
+      right: 260px;
+      color: white;
+      font-size: small;
+     }
+
+    
+    .registercontainer .backg .registerinput .inputbox  .icon{
+        position: absolute;
+        top: 10px;
+        right: -30%;
+        transform: translate(-50px);
+        color: rgb(192, 192, 192);
+     }
+  
+
+
+      .registercontainer .backg .registerinput .inputbox :focus,
+      .registercontainer .backg .registerinput .inputbox :valid{
+        border-bottom: 2px solid rgb(255, 255, 255);
+         
+ 
+       }
+       
+
+
+     
+      .registercontainer .backg .registerinput .contenubtn .but{
+        position: absolute;
+        font-size: 20px;
+        margin: 30px;
+        font-family: bold;
+        padding: 10px 40px ;
+        color:rgb(251, 251, 251) ;
+        background-color: transparent;
+        border: 2px solid rgb(249, 249, 249);
+        border-radius: 5px;
+      
+    
+     }
+     .registercontainer .backg .registerinput .contenubtn .but:hover{
+        padding: 10px 40px ;
+        color:rgb(245, 159, 1) ;
+        background-color: transparent;
+        border: 3px solid rgb(245, 159, 1);
+        border-radius: 5px;
+      
+    
+    }
+
+
+
+
+
+
+/* ----------------------------------register page------------------------------------------*/
+
+
+/* ----------------------------------login page--------------------------------------------*/
+
+
+.logincontainer{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(237, 5, 5, 0.06);
+    
+
+
+
+}
+.logincontainer .backg{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 130px;
+    width: 90%;
+    height: 70%;
+    background: linear-gradient(45deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 85, 0, 0.45),rgba(35, 104, 0, 0.45),rgba(0, 136, 5, 0.45),rgba(0, 68, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    animation: animationnackgroundloginpage 30s linear infinite;
+
+
+}
+
+
+@keyframes animationnackgroundloginpage {
+    0%{
+        background-position: 0% ;
+    }
+    100%{
+        background-position: 400% ;
+    }
+    
+}
+
+.logincontainer .backg .logintext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 40px;
+    top: 35%;
+    
+
+}
+.logincontainer .backg .logintext h1{
+    position: relative;
+    font-size: 50px;
+    font-family: bold;
+    color: white;
+}  
+.logincontainer .backg .logintext h2{
+    position: relative;
+    font-family: bold;
+    color: white;
+}  
+.logincontainer .backg .logintext P{
+    position: relative;
+    font-family: bold;
+    padding: 6px;
+    width: 40%;
+    height: 10vh;
+    color: white;
+} 
+
+.logincontainer .backg .logintext .folowus{
+    position: relative;
+    width: 40%;
+    height: 10vh;
+    color: white;
+} 
+.logincontainer .backg .logintext .folowus i{
+   padding: 5px;
+   color: white;
+} 
+
+/* input login page */
+
+.logincontainer .backg .logininput{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(1, 1, 1, 0.13);
+    backdrop-filter: blur;
+    height: 100%;
+    padding-inline: 10vw;
+    border-top-right-radius: 10px;   
+    border-bottom-right-radius: 10px;
+    color: white;
+
+
+}
+.logincontainer .backg .logininput h2{
+    font-size: 30px;
+    font-family: bold;
+    padding-bottom: 10px;
+
+} 
+.logincontainer .backg .logininput .dontHaveAccount a{
+    color: rgb(203, 228, 255);
+    border-bottom: 1px solid rgb(203, 228, 255);
+    font-size: 15px;
+    font-family: bold;
+    
+
+}
+
+.logincontainer .backg .logininput .inputbox {
+    position: relative;
+width:  300px;
+height: 40px;
+border-bottom: 2px solid white;
+margin: 40px 0;
+
+}
+
+
+.logincontainer .backg .logininput .inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    }
+
+    .logincontainer .backg .logininput .inputbox label{
+       position: absolute;
+       top:     15px;
+       left:   18%;
+       transform: translate(-50px);
+       transition: 0.5s ease;
+    }
+
+    
+    .logincontainer .backg .logininput .inputbox  .icon{
+        position: absolute;
+        top: 10px;
+        right: -30%;
+        transform: translate(-50px);
+     }
+     .logincontainer .backg .logininput .inputbox input:focus~label,
+     .logincontainer .backg .logininput .inputbox input:valid~label{
+        top: -15px;
+      }
+
+
+
+     
+      .logincontainer .backg .logininput .contenubtn .but{
+        position: absolute;
+        font-size: 20px;
+        right: 50px;
+        font-family: bold;
+        padding: 10px 40px ;
+        color:rgb(251, 251, 251) ;
+        background-color: transparent;
+        border: 2px solid rgb(249, 249, 249);
+        border-radius: 5px;
+      
+    
+     }
+     .logincontainer .backg .logininput .contenubtn .but:hover{
+        padding: 10px 40px ;
+        color:rgb(245, 159, 1) ;
+        background-color: transparent;
+        border: 3px solid rgb(245, 159, 1);
+        border-radius: 5px;
+      
+    
+    }
+
+
+
+
+
+
+
+
+
+/* ---------------------------------- login page--------------------------------------------*/
+
+
+/* ----------------------------------project page ------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------project page ------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------mode telephone------------------------------------------*/
+
+@media screen and (max-width: 1074px) 
+{
+     .navbar{
+        align-items: center;
+     }
+   
+    
+      .navbar .menu{
+        display: block;
+        
+    }
+    
+
+
+     
+
+     .nav-lins{
+        top: 0;
+        right:0;
+        position: absolute;
+        background-color: hsla(0, 0%, 4%, 0.443);
+        backdrop-filter: blur(7px);
+        width: 220px;
+        height: 500px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        transition: all 0.5s ease;
+    
+       
+
+    }
+     .nav-lins.mobile-menu {
+        margin-top: -500px;
+        position: fixed;
+            
+    }
+    
+
+
+    
+     .nav-lins ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    .navbar .nav-lins ul li{
+        
+        margin: 25px 0;
+    }
+    
+    
+    
+     .navbar .nav-lins ul h1 a{
+        font-size: 15px;
+        margin: 30px;
+        
+        color:rgb(251, 251, 251) ;
+        background-color: transparent;
+        border: 1px solid rgb(249, 249, 249);
+        border-radius: 5px;
+      
+    
+     }
+     
+    
+     .navbar .nav-lins ul h1 a:hover{
+      
+        color:rgb(245, 159, 1) ;
+        background-color: transparent;
+        border: 1px solid rgb(245, 159, 1);
+        border-radius: 3px;
+      
+    
+        }
+
+        
+
+        .navbar .nav-lins ul li a::after{
+           
+            margin-top: 30px;
+           
+        }
+
+
+        #aa{
+            display: flex;
+            flex-direction: column;
+        }
+
+/* ---------------------login phone version-------------------------------*/
+        
+        .logincontainer .backg .logintext{
+
+            display: none;
+        
+        }
+        .logincontainer .backg .logininput{
+            position: relative;
+            height: 100%;
+            width:  100%;
+            padding-inline: 0vw;
+            padding-left: 10vw;
+
+            
+        }
+
+
+
+
+ /* ---------------------register phone version-------------------------------*/
+        
+        
+        
+
+
+        .registercontainer .backg .logintext{
+
+            display: none;
+        }
+
+
+        .registercontainer .backg .registerinput {
+
+            position: relative;
+            height: 100%;
+            width:  100%;
+            padding-inline: 0vw;
+            padding-left: 16vw;
+
+            
+        }
+        
+
+        .registercontainer .backg .registerinput .contenubtn .but{
+            font-size: 20px;
+            left: 30vw;
+            margin: 20px;
+            color:rgb(251, 251, 251) ;
+            background-color: rgba(3, 0, 0, 0.374);
+  
+          
+        
+         }
+         .registercontainer .backg .registerinput .contenubtn .but:hover{
+            background-color: rgba(36, 36, 36, 0.719);
+
+        
+        }
+
+
+        .registercontainer .backg .registerinput .inputbox input:focus~label,
+        .registercontainer .backg .registerinput .inputbox input:valid~label{
+          top: -5px;
+          right: 200px;
+          color: white;
+          font-size: 11px;
+         }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:441px) { 
+    
+     .navbar .menu{
+        display: none;
+    }
+}
+
+
+
+
+}
+
+
+

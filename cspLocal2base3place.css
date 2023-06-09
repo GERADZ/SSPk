@@ -1,0 +1,2539 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+/* ----------------------------------navebar ------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+   
+header{
+
+    height: 100%;
+    width: 100%;
+    background-image: url(img/pv\ pv.jpg) repeat =none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 20s alternate infinite ease-in-out;
+    background-attachment: fixed;
+    overflow: hidden;
+
+
+}
+@keyframes change {
+    0%{
+        background-image: url(img/pv\ b.jpg) ;
+    }
+    50%{
+        background-image: url(img/backo.jpg);
+    }
+    100%{
+        background-image: url(img/pv\ b.jpg);
+  
+    }
+    
+}
+ /*--------------------------------------- khat -----------------------------------*/
+
+ .khat{
+
+    position: relative;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.657);   
+    backdrop-filter: blur(7px); 
+}
+.khat .kha_t {
+    width: 70%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.342);
+    margin: 10px;
+}
+
+ /*--------------------------------------- khat -----------------------------------*/
+ 
+
+#khat_top{
+
+    position: relative;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(2, 2, 43, 0.427);
+    backdrop-filter: blur(7px); 
+}
+#khat_top .kha_t_top {
+    width: 70%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.342);
+    margin: 10px;
+}
+
+
+
+/*--------------------------------- scrol -----------------------------------*/
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 170, 0, 0.606);
+    transition: 0.6s;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(255, 170, 0);
+
+}
+
+
+
+/*--------------------------------- scrol -----------------------------------*/
+/*--------------------------------- nav -----------------------------------*/
+
+.csp_p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+
+.csp_p .background_project{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    left: 0;
+    transition: 0.5s;
+
+
+}
+
+.csp_p .btn_mnu{
+    position: fixed;
+    width:5%;
+    height: 100%;
+    background-color: rgba(2, 2, 43, 0.7);
+    right: 0px;
+    transition: 0.5s;
+}
+
+.csp_p .sections_m{
+    position: fixed;
+    width:20%;
+    height: 100%;
+    background-color: rgba(2, 2, 43, 0.7);
+    transition: 0.5s;
+    right: -20%;
+    transition: 0.5s;
+
+}
+.csp_p .sections_m .scrol_m {
+    position: absolute;
+    width:89%;
+    height: 86%;
+    background-color: rgba(2, 2, 43, 0.7);
+    transition: 0.5s;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 30px;
+
+}
+.sections_m .scrol_m ul{
+    margin: 20px;
+    padding-top: 20px;
+}
+.sections_m .scrol_m ul a{
+    padding-top: 20px;
+    color: white;
+    transition: 0.3s;
+}
+.sections_m .scrol_m ul a:hover{
+    padding-top: 20px;
+    color: rgb(255, 170, 0);
+    font-size: 15px;
+}
+.csp_p .sectionsM_check{
+    right: 0%;
+
+}
+.csp_p .icon_check{
+    right:20%;
+
+}
+.csp_p .pro_check{
+    left: -20%;
+}
+
+
+
+#menubtn {
+    position: absolute;
+    padding: 10px;
+    margin-top:20px ;
+
+
+}
+#returnbtn {
+    position: absolute;
+    margin-top: 100px;
+    padding: 10px;
+
+
+
+}
+#download_raport{
+    position: absolute;
+    margin-top: 500px;
+    padding: 10px; 
+    
+}
+
+/*--------------------------------- nav -----------------------------------*/
+/* --------Place 3 */
+#place3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#place3 .backgroundPlace3{
+    height: 100%;
+    width: 100%;
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#place3 .backgroundPlace3 .Name-location-1{
+    background-color: rgba(2, 2, 43, 0.427);
+    padding: 10px;
+    font-family: bold;
+    font-size: 30px;
+}
+#place3 .backgroundPlace3 .Name-location-1 input{
+    padding: 6px;
+    width: 50%;
+    font-size: 20px;
+    font-family: bold;
+    color: black;
+
+}
+
+#place3 .backgroundPlace3 h3{
+    position:relative;
+    justify-content: center;
+    color: black;
+}
+
+#place3 .backgroundPlace3 .place-1-data-1-2-3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+
+}
+
+#place3 .backgroundPlace3 .place-1-data-1-2-3 .database1{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+#place3 .backgroundPlace3 .database1 .NDB1{
+   position: relative;
+   background-color: rgba(192, 192, 192, 0.548);
+   border: 2px solid black;
+   color: white;
+   padding: 5px;
+
+}
+#place3 .backgroundPlace3 .database1 .NDB1 input{
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    color: black;
+
+    
+ }
+ #place3 .backgroundPlace3 .database1 .NDB1 label{
+    position: relative;
+    padding: 10px;
+    font-size: smaller;
+    width: 20%;
+    
+    
+ }
+#place3 .backgroundPlace3 .database1 .NDB1 h3{
+    position: relative;   
+    color: white;
+ }
+
+ 
+/*-----div table input------*/
+
+
+#place3 .backgroundPlace3 .database1 .jan{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.813);
+    font-family: bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+    
+
+}
+#place3 .backgroundPlace3 .database1 .jan label{
+    position: relative;
+    width: 20%;
+    
+
+}
+#place3 .backgroundPlace3 .database1 .jan input{
+    position: relative;
+    width: 30%;
+
+}
+#place3 .backgroundPlace3 .database1 .jan samp{
+    position: relative;
+    width: 20%;
+   
+
+}
+
+
+#place3 .backgroundPlace3 .database1 .feb{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.353);
+    color: white;
+    font-family: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+#place3 .backgroundPlace3 .database1 .feb label{
+    position: relative;
+    width: 20%;
+
+}
+#place3 .backgroundPlace3 .database1 .feb input{
+    position: relative;
+    width: 30%;
+    color: black;
+
+}
+#place3 .backgroundPlace3 .database1 .feb samp{
+    position: relative;
+    width: 20%;
+
+}
+
+
+/*-----div table input------*/
+
+
+/*------------ plase 1-----------------*/
+.locations{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.locations .backgroundPlace1{
+    height: 100%;
+    width: 50%;
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.locations .backgroundPlace1 .Name-location-1{
+    background-color: rgba(2, 2, 43, 0.427);
+    padding: 10px;
+    font-family: bold;
+    font-size: 30px;
+}
+.locations .backgroundPlace1 .Name-location-1 input{
+    padding: 6px;
+    width: 50%;
+    font-size: 20px;
+    font-family: bold;
+    color: black;
+
+}
+
+.locations .backgroundPlace1 h3{
+    position:relative;
+    justify-content: center;
+    color: black;
+}
+
+.locations .backgroundPlace1 .place-1-data-1-2-3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+
+}
+/*------------ plase 1 DATABASE    1     -----------------*/
+
+.locations .backgroundPlace1 .place-1-data-1-2-3 .database1{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.locations .backgroundPlace1 .database1 .NDB1{
+   position: relative;
+   background-color: rgba(192, 192, 192, 0.548);
+   border: 2px solid black;
+   color: white;
+   padding: 5px;
+
+}
+.locations .backgroundPlace1 .database1 .NDB1 input{
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    color: black;
+
+    
+ }
+ .locations .backgroundPlace1 .database1 .NDB1 label{
+    position: relative;
+    padding: 10px;
+    font-size: smaller;
+    width: 20%;
+    
+    
+ }
+.locations .backgroundPlace1 .database1 .NDB1 h3{
+    position: relative;   
+    color: white;
+ }
+
+
+
+
+/*-----div table input------*/
+
+
+.locations .backgroundPlace1 .database1 .jan{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.813);
+    font-family: bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+    
+
+}
+.locations .backgroundPlace1 .database1 .jan label{
+    position: relative;
+    width: 20%;
+    
+
+}
+.locations .backgroundPlace1 .database1 .jan input{
+    position: relative;
+    width: 30%;
+
+}
+.locations .backgroundPlace1 .database1 .jan samp{
+    position: relative;
+    width: 20%;
+   
+
+}
+
+
+.locations .backgroundPlace1 .database1 .feb{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.353);
+    color: white;
+    font-family: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+.locations .backgroundPlace1 .database1 .feb label{
+    position: relative;
+    width: 20%;
+
+}
+.locations .backgroundPlace1 .database1 .feb input{
+    position: relative;
+    width: 30%;
+    color: black;
+
+}
+.locations .backgroundPlace1 .database1 .feb samp{
+    position: relative;
+    width: 20%;
+
+}
+
+
+/*-----div table input------*/
+
+/*------------ plase 1 DATABASE    1     -----------------*/
+
+/*------------ plase 1 DATABASE    2     -----------------*/
+
+
+.locations .backgroundPlace1 .place-1-data-1-2-3 .database2{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 0, 102, 0.173);
+    justify-content: space-between;
+}
+
+
+.locations .backgroundPlace1 .place-1-data-1-2-3 .database2{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.locations .backgroundPlace1 .database2 .NDB2{
+   position: relative;
+   background-color: rgba(192, 192, 192, 0.548);
+   border: 2px solid black;
+   color: white;
+   padding: 5px;
+
+}
+.locations .backgroundPlace1 .database2 .NDB2 input{
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    color: black;
+
+    
+ }
+ .locations .backgroundPlace1 .database2 .NDB2 label{
+    position: relative;
+    padding: 10px;
+    font-size: smaller;
+    width: 20%;
+    
+    
+ }
+.locations .backgroundPlace1 .database2 .NDB2 h3{
+    position: relative;   
+    color: white;
+ }
+
+
+
+
+/*-----div table input------*/
+
+
+.locations .backgroundPlace1 .database2 .jan{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.813);
+    font-family: bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+    
+
+}
+.locations .backgroundPlace1 .database2 .jan label{
+    position: relative;
+    width: 20%;
+    
+
+}
+.locations .backgroundPlace1 .database2 .jan input{
+    position: relative;
+    width: 30%;
+
+}
+.locations .backgroundPlace1 .database2 .jan samp{
+    position: relative;
+    width: 20%;
+   
+
+}
+
+
+.locations .backgroundPlace1 .database2 .feb{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.353);
+    color: white;
+    font-family: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+.locations .backgroundPlace1 .database2 .feb label{
+    position: relative;
+    width: 20%;
+
+}
+.locations .backgroundPlace1 .database2 .feb input{
+    position: relative;
+    width: 30%;
+    color: black;
+
+
+}
+.locations .backgroundPlace1 .database .feb samp{
+    position: relative;
+    width: 20%;
+
+}
+
+
+/*-----div table input------*/
+
+
+/*------------ plase 1 DATABASE    2     -----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------ plase 3 DATABASE    2     -----------------*/
+
+
+#place3 .backgroundPlace3  .place-1-data-1-2-3 .database2{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 0, 102, 0.173);
+    justify-content: space-between;
+}
+
+
+#place3 .backgroundPlace3  .place-1-data-1-2-3 .database2{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+#place3 .backgroundPlace3  .database2 .NDB2{
+   position: relative;
+   background-color: rgba(192, 192, 192, 0.548);
+   border: 2px solid black;
+   color: white;
+   padding: 5px;
+
+}
+#place3 .backgroundPlace3  .database2 .NDB2 input{
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    color: black;
+
+    
+ }
+ #place3 .backgroundPlace3  .database2 .NDB2 label{
+    position: relative;
+    padding: 10px;
+    font-size: smaller;
+    width: 20%;
+    
+    
+ }
+#place3 .backgroundPlace3  .database2 .NDB2 h3{
+    position: relative;   
+    color: white;
+ }
+
+
+
+
+/*-----div table input------*/
+
+
+#place3 .backgroundPlace3  .database2 .jan{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.813);
+    font-family: bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+    
+
+}
+#place3 .backgroundPlace3  .database2 .jan label{
+    position: relative;
+    width: 20%;
+    
+
+}
+#place3 .backgroundPlace3  .database2 .jan input{
+    position: relative;
+    width: 30%;
+
+}
+#place3 .backgroundPlace3  .database2 .jan samp{
+    position: relative;
+    width: 20%;
+   
+
+}
+
+
+#place3 .backgroundPlace3  .database2 .feb{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.353);
+    color: white;
+    font-family: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+#place3 .backgroundPlace3  .database2 .feb label{
+    position: relative;
+    width: 20%;
+
+}
+#place3 .backgroundPlace3  .database2 .feb input{
+    position: relative;
+    width: 30%;
+    color: black;
+
+
+}
+#place3 .backgroundPlace3  .database .feb samp{
+    position: relative;
+    width: 20%;
+
+}
+
+
+/*-----div table input------*/
+
+
+/*------------ plase 3 DATABASE    2     -----------------*/
+/*--------------------------------------- les sites -----------------------------------*/
+
+
+
+/*-----------------------%X  input----------------------------------------*/
+#inputbox_pourcentage_x_back{
+    height: 60%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.657);   
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: bold;
+    font-size: 20px;
+
+}
+/*-----------------------%X  input----------------------------------------*/
+
+ /*--------------------------------------- submit-btn -----------------------------------*/
+
+
+
+ #submit- .submit-btn{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: center;
+
+ }
+ button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animat 10s linear infinite;
+    color: white;
+    font-size: larger;
+    margin:10px;
+    cursor: pointer;
+
+}
+@keyframes animat {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+button:active {
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: #ff5100;
+    background-size: 400%;
+    color: white;
+    font-size: larger;
+    margin:10px;}
+
+
+.fa-flash:before {
+   content: "\f067";
+   animation: 0.5s 
+ }
+ 
+ .fa-check:before {
+   content: "\f068";
+ }
+
+
+
+ /*--------------------------------------- submit-btn -----------------------------------*/
+
+ #space{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+ }
+
+
+ /*--------------------------------------- ALL data daxhbord 1 -----------------------------------*/
+
+
+ #tab-all-premier-data{
+    height: 60%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.657);   
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: bold;
+    font-size: 20px;
+
+ }
+ 
+
+h2 {
+	text-align: center;
+	margin-top: 20px;
+    
+    
+}
+
+.name-section {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid black;
+	text-align: center;
+    background-color: rgba(255, 255, 255, 0.725);
+}
+
+th {
+	background-color: #ccc;
+}
+ /*--------------------------------------- ALL data daxhbord 1 -----------------------------------*/
+
+
+ /*--------------------------------------- graph  1 -----------------------------------*/
+ #graphone{
+    position: relative;
+    height: 86%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.657);   
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+ }
+
+
+
+
+ #graphone .background-graphone {
+    position: relative;
+    height: 100%;
+    width: 80%;
+
+ }
+ #graphone .background-text-graphone {
+    position: relative;
+    height: 100px;
+    width: 20%;
+
+ }
+ .aa{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column ;
+
+}
+
+
+
+
+
+
+ /*--------------------------------------- graph 1 -----------------------------------*/
+
+ /*--------------------------------------- graph 2 tab 2 -----------------------------------*/
+
+
+ #tab-all-somme-data-anuell{
+    position: relative;
+    height: 150%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: bold;
+    font-size: 20px;
+
+ }
+
+ #tab-all-somme-data-anuell .tableau-all-data-anuell{
+    position: relative;
+    width: 40%;
+    justify-content: center;
+ }
+ #tab-all-somme-data-anuell .background-graph-annual-DNI{
+    position: relative;
+    width: 60%;
+ }
+
+
+ /*------annual DNI data daxhbord 2 --------*/
+
+.notation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+ .notation .squaresD1P1{
+    position: relative;
+ 
+ }
+ .D2P1notation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+ }
+ .D2P1notation .squaresD2P1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+   flex-direction: row;
+    
+ 
+ }
+
+
+ .D1P2notation{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .D1P2notation .squaresD1P2{
+    position: absolute;
+ 
+ }
+ .D2P2notation{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.D2P2notation .squaresD2P2{
+    position: absolute;
+ 
+ }
+ #tab-all-somme-data-anuell .tableau-all-data-anuell .khattt{
+    width: 80%;
+    height: 6px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.342);
+    margin: 10px;
+}
+
+
+
+/* evaluation bar*/
+#rate {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+    border: solid 2px rgb(84, 84, 84);
+    background-color: transparent;
+    
+
+}
+
+#pourcentage_rate{
+    width: 0%;
+    height: 100%;
+    border-radius: 13px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: width 10s ease-in-out;
+    
+}
+#color_rate{
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+
+    background: linear-gradient(90deg ,
+    rgb(255, 0, 0),
+     rgb(255, 115, 0),
+     rgb(255, 229, 36),
+     rgb(85, 255, 0),
+     rgb(4, 115, 0));
+
+}
+#anima{
+    width: 100%;
+    height: 100%;
+background: linear-gradient(45deg ,
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0.818),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0)
+
+
+ );
+background-size: 400%;
+animation: animato 10s linear infinite;
+}
+
+
+/* -------------------------------  bar rat 4  ----------------------------------*/
+
+#rate1 {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+    border: solid 2px rgb(84, 84, 84);
+    background-color: transparent;
+    
+
+}
+
+#pourcentage_rate1 {
+    width: 0%;
+    height: 100%;
+    border-radius: 13px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: width 10s ease-in-out;
+    
+}
+#color_rate1 {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+
+    background: linear-gradient(90deg ,
+    rgb(255, 0, 0),
+     rgb(255, 115, 0),
+     rgb(255, 229, 36),
+     rgb(85, 255, 0),
+     rgb(4, 115, 0));
+
+}
+#anima1 {
+    width: 100%;
+    height: 100%;
+background: linear-gradient(45deg ,
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0.818),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0)
+
+
+ );
+background-size: 400%;
+animation: animato 10s linear infinite;
+}
+
+
+/* -------------------------------  bar rat 4  ----------------------------------*/
+
+#rate2 {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+    border: solid 2px rgb(84, 84, 84);
+    background-color: transparent;
+    
+
+}
+
+#pourcentage_rate2 {
+    width: 0%;
+    height: 100%;
+    border-radius: 13px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: width 10s ease-in-out;
+    
+}
+#color_rate2 {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+
+    background: linear-gradient(90deg ,
+    rgb(255, 0, 0),
+     rgb(255, 115, 0),
+     rgb(255, 229, 36),
+     rgb(85, 255, 0),
+     rgb(4, 115, 0));
+
+}
+#anima2 {
+    width: 100%;
+    height: 100%;
+background: linear-gradient(45deg ,
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0.818),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0)
+
+
+ );
+background-size: 400%;
+animation: animato 10s linear infinite;
+}
+
+
+/* -------------------------------  bar rat 4  ----------------------------------*/
+
+#rate3 {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+    border: solid 2px rgb(84, 84, 84);
+    background-color: transparent;
+    
+
+}
+
+#pourcentage_rate3 {
+    width: 0%;
+    height: 100%;
+    border-radius: 13px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: width 10s ease-in-out;
+    
+}
+#color_rate3 {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+
+    background: linear-gradient(90deg ,
+    rgb(255, 0, 0),
+     rgb(255, 115, 0),
+     rgb(255, 229, 36),
+     rgb(85, 255, 0),
+     rgb(4, 115, 0));
+
+}
+#anima3 {
+    width: 100%;
+    height: 100%;
+background: linear-gradient(45deg ,
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0.818),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0)
+
+
+ );
+background-size: 400%;
+animation: animato 10s linear infinite;
+}
+
+
+@keyframes animato {
+0%{
+    background-position: 400%;
+}
+
+100%{
+    background-position: 0%;
+}}
+
+
+/* -------------------------------  bar rat 4  ----------------------------------*/
+
+#rate_P3 {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+    border: solid 2px rgb(84, 84, 84);
+    background-color: transparent;
+    
+
+}
+
+#pourcentage_rate_P3 {
+    width: 0%;
+    height: 100%;
+    border-radius: 13px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: width 10s ease-in-out;
+    
+}
+#color_rate_P3 {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+
+    background: linear-gradient(90deg ,
+    rgb(255, 0, 0),
+     rgb(255, 115, 0),
+     rgb(255, 229, 36),
+     rgb(85, 255, 0),
+     rgb(4, 115, 0));
+
+}
+#animaP3 {
+    width: 100%;
+    height: 100%;
+background: linear-gradient(45deg ,
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0.818),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0)
+
+
+ );
+background-size: 400%;
+animation: animato 10s linear infinite;
+
+}
+/* -------------------------------  bar rat 4  ----------------------------------*/
+
+#rate_P3_ {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+    border: solid 2px rgb(84, 84, 84);
+    background-color: transparent;
+    
+
+}
+
+#pourcentage_rate_P3_ {
+    width: 0%;
+    height: 100%;
+    border-radius: 13px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: width 10s ease-in-out;
+    
+}
+#color_rate_P3_ {
+    width: 400px;
+    height: 20px;
+    border-radius: 13px;
+
+    background: linear-gradient(90deg ,
+    rgb(255, 0, 0),
+     rgb(255, 115, 0),
+     rgb(255, 229, 36),
+     rgb(85, 255, 0),
+     rgb(4, 115, 0));
+
+}
+#animaP3_ {
+    width: 100%;
+    height: 100%;
+background: linear-gradient(45deg ,
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0.818),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0),
+rgba(255, 255, 255, 0)
+
+
+ );
+background-size: 400%;
+animation: animato 10s linear infinite;
+}
+
+/* evaluation bar*/
+
+
+h2 {
+	text-align: center;
+	margin-top: 20px;
+    
+    
+}
+
+.name-section {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid black;
+	text-align: center;
+    background-color: rgba(255, 255, 255, 0.725);
+}
+
+th {
+	background-color: #ccc;
+}
+ /*------annual DNI data daxhbord 2 --------*/
+
+
+  /*--------------------------------------- graph 2 tab 2 -----------------------------------*/
+
+
+/*--------------------------------------- MAX DNI -----------------------------------*/
+
+
+#valeurMAX{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: bold;
+    font-size: 20px;
+}
+ #valeurMAX .background_graph_valeurMAX{
+    position: relative;
+    width: 60%;
+    justify-content: center;
+ }
+ #valeurMAX .background_tabl_valeurMAX{
+    position: relative;
+    width: 40%;
+    justify-content: center;
+ }
+
+
+
+
+/*--------------------------------------- MAX DNI -----------------------------------*/
+
+/*--------------------------------------- MIN DNI -----------------------------------*/
+#valeurMIN{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: bold;
+    font-size: 20px;
+}
+ #valeurMIN .background_graph_valeurMIN{
+    position: relative;
+    width: 60%;
+    justify-content: center;
+ }
+ #valeurMIN .background_tabl_valeurMIN{
+    position: relative;
+    width: 40%;
+    justify-content: center;
+ }
+
+/*--------------------------------------- MIN DNI -----------------------------------*/
+
+
+
+/*--------------------------------------- extent absolute & extent relative   -----------------------------------*/
+
+
+#etandtu{
+    height: 89%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: bold;
+    font-size: 20px;
+}
+ #etandtu .etandu_absolute{
+    position: relative;
+    width: 50%;
+    justify-content: center;
+ }
+ #etandtu .etandu_absolute table{
+    position: relative;
+    margin-left: 100px;
+ }
+
+
+ #etandtu .etandu_relative{
+    position: relative;
+    width: 50%;
+    justify-content: center;
+ }
+ #etandtu .etandu_relative table{
+    position: relative;
+    margin-left: 100px; }
+
+ 
+
+
+
+/*--------------------------------------- extent absolute & extent relative  -----------------------------------*/
+/*--------------------------------------- saisons   -----------------------------------*/
+
+#saisonn{
+    height: 110%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: bold;
+    font-size: 20px;
+}
+
+  /*--------------------------------------- khatperp */
+
+#saisonn .khatperp {
+    width: 20px;
+    height: 100%;
+    padding: 5px;
+}
+#saisonn .khatperp .khaTP {
+    width: 5px;
+    height: 70%;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.342);
+    margin: 10px;
+}
+
+ 
+#saisonn .location1{
+    position: relative;
+    width: 30%;
+    justify-content: center;
+}
+#saisonn .location1 table{
+    position: relative;
+    margin-left: 30px;
+}
+#saisonn .location2{
+    position: relative;
+    width: 30%;
+    justify-content: center;
+}
+#saisonn .location2 table{
+    position: relative;
+}
+#saisonn .location3{
+    position: relative;
+    width: 30%;
+    justify-content: center;
+}
+#saisonn .location3 table{
+    position: relative;
+}
+
+
+/*--------------------------------------- saisons   -----------------------------------*/
+
+/*--------------------------------------- dcenarios   -----------------------------------*/
+
+#scinariolocation1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    justify-content: center;
+
+}
+.table_senarios1 {
+    margin: 30px;
+}
+.Name-location-1-senarios i{
+    font-size: 30px;
+    font-family: bold;
+    padding: 30px;
+
+}
+.senarios1-graph{
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+}
+
+/* location 2 scenarios */
+#scinariolocation2{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    justify-content: center;
+
+}
+.table_senarios2 {
+    margin: 30px;
+}
+.Name-location-2-senarios i{
+    font-size: 30px;
+    font-family: bold;
+    padding: 30px;
+
+}
+.senarios2-graph{
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+}
+
+/*SCENARIOS LOCATION3 */
+
+#scinariolocation3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    justify-content: center;
+
+}
+.table_senarios3 {
+    margin: 30px;
+}
+.Name-location-3-senarios i{
+    font-size: 30px;
+    font-family: bold;
+    padding: 30px;
+
+}
+.senarios3-graph{
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+}
+
+/* ----------------------------------------------------new data------------------------*/
+
+
+#New_data{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    justify-content: center;
+
+}
+.table_new_data {
+    margin: 30px;
+}
+.new_data_name i{
+    font-size: 30px;
+    font-family: bold;
+    padding: 30px;
+
+}
+.graph_new_data{
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+}
+
+/* --------------------------somme anuell---------*/
+#n_d_somme_anuelle{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    justify-content: center;
+
+}
+.background_n_d_anuell{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.background_n_d_anuell .table_n_d_anuell{
+width: 40%;
+height: 100%;
+padding: 40px;
+}
+.background_n_d_anuell .graph_n_d_anuell{
+    width: 60%;
+    height: 100%;
+}
+#n_d_somme_anuelle i{
+    font-size: 30px;
+    font-family: bold;
+    padding: 30px;
+
+}
+.graph_new_data{
+    width: 80%;
+    height: 80%;
+}
+.notation_n_d_anuell{
+    font-size: 20px;
+    font-family: bold;
+    padding: 10px;
+}
+/*classment par notation*/
+.ranking_by_rating{
+    font-family: bold;
+}
+
+.classment_pa_notation{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border-radius: 16px;
+    border: solid 2px black;
+    overflow: hidden;
+
+}
+.loca1_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#n_loca1_classement_{
+    position: relative; 
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt0 15s linear infinite;
+    color: black;
+    font-family: bold;
+    justify-content: center;
+    align-items: center;
+    
+}
+#class_loca1_classement_{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+.loca2_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+
+}
+#n_loca2_classement_{
+    position: relative; 
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animattI 15s linear infinite;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+    
+}
+#class_loca2_classement_{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+/*P3*/
+.loca3_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+
+}
+#n_loca3_classement_{
+    position: relative; 
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animattI 15s linear infinite;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+    
+}
+#class_loca3_classement_{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+
+
+@keyframes animatt0 {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+@keyframes animattI {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+
+/*--------------------------------------- rankin   -----------------------------------*/
+#rating_rankin{
+    position: relative;
+    height: 86%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.657);   
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.rankin_frequency_bulk_backgound{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.rankin_frequency_table_data{
+    position: relative;
+    width: 40%;
+    height: 200px;
+
+}
+.rankin_frequency_rank_data{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    border-radius: 16px;
+    border: solid 2px black;
+    overflow: hidden;
+
+}
+.rankin_frequency_rankloca1_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#rankin_frequency_rankn_loca1_classement_{
+    position: relative; 
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt0 15s linear infinite;
+    color: black;
+    font-family: bold;
+    justify-content: center;
+    align-items: center;
+    
+}
+#rankin_frequency_rankclass_loca1_classement_{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+.rankin_frequency_rankloca2_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+
+}
+#rankin_frequency_rankn_loca2_classement_{
+    position: relative; 
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animattI 15s linear infinite;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+    
+}
+#rankin_frequency_rankclass_loca2_classement_{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+
+/*P3*/
+.rankin_frequency_rankloca3_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+}
+#rankin_frequency_rankn_loca3_classement_{
+    position: relative; 
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt0 15s linear infinite;
+    color: black;
+    font-family: bold;
+    justify-content: center;
+    align-items: center;
+    
+}
+#rankin_frequency_rankclass_loca3_classement_{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+
+
+@keyframes animatt0 {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+@keyframes animattI {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+/*///////////////////////////////////////////////////////////////////////////*/
+/*classment brut*/
+
+#rankin_raw{
+    position: relative;
+    height: 86%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.657);   
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.back_rank_brut{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.table_back_rank_brut{
+    position: relative;
+    width: 40%;
+    height: 200px;
+
+}
+.class_back_rank_brut{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    border-radius: 16px;
+    border: solid 2px black;
+    overflow: hidden;
+
+}
+.class_back_rank_brut_loca1_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#class_back_rank_brut_n_loca1_classement_{
+    position: relative; 
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animatt0 15s linear infinite;
+    color: black;
+    font-family: bold;
+    justify-content: center;
+    align-items: center;
+    
+}
+#class_back_rank_brut_class_loca1_classement_{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+    
+}
+
+.class_back_rank_brut_loca2_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+
+}
+
+#class_back_rank_brut_n_loca2_classement_{
+    position: relative; 
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animattI 15s linear infinite;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+    
+}
+#class_back_rank_brut_class_loca2_classement_{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+
+.class_back_rank_brut_loca2_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+
+}
+
+#class_back_rank_brut_n_loca2_classement_{
+    position: relative; 
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animattI 15s linear infinite;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+    
+}
+#class_back_rank_brut_class_loca2_classement_{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+/*p3*/
+
+.class_back_rank_brut_loca3_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+
+}
+
+#class_back_rank_brut_n_loca3_classement_{
+    position: relative; 
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animattI 15s linear infinite;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+    
+}
+#class_back_rank_brut_class_loca3_classement_{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+
+.class_back_rank_brut_loca3_classement{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5px;
+
+}
+
+#class_back_rank_brut_n_loca3_classement_{
+    position: relative; 
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+    background-size: 400%;
+    animation: animattI 15s linear infinite;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+    
+}
+#class_back_rank_brut_class_loca3_classement_{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: bold;
+
+}
+@keyframes animatt0 {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+@keyframes animattI {
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------*/
+#senarios_rankin{
+    position: relative;
+    height: 86%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.657);   
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#rankin_frequency_bulk{
+    position: relative;
+    height: 86%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.657);   
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.development_process{
+    margin-left: 40px;
+    color: #ff0000;
+    display: flex;
+}
+.loading-circle {
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid #939393;
+    border-top-color: #00e1ff;
+    animation: spin 1s infinite linear;
+    margin-left: 10px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*classement ----------------------------*/
+ 
+#classement{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    font-family: bold;
+    font-size: 20px;
+
+}
+.av_clas{
+ position: relative;
+ width: 100%;
+ height: 100%;
+ background: linear-gradient(90deg ,rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ,rgba(0, 46, 0, 0.45),rgba(19, 56, 0, 0.45),rgba(0, 74, 2, 0.45),rgba(0, 39, 0, 0.45),rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45) );
+ background-size: 400%;
+ animation: animat 10s linear infinite;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ }
+
+ 
+ .av_clas h1{
+    color: white;
+
+ }
+ .av_clas .background_classement{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+ }
+  /*classemnet*/
+
+ .av_clas .background_classement .class {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+ }
+ .av_clas .background_classement .class .class1 {
+     width: 100%;
+     height: 100%;
+
+ }
+ #number1_class {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(97, 97, 97);
+    margin-left: 30px;
+    margin-top: 5px;
+ }
+ #name1_class {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 0, 179);
+    margin-left: 30px;
+    margin-top: 5px;
+    
+
+ }
+
+ .av_clas .background_classement .class .class2 {
+    width: 100%;
+    height: 100%;
+
+}
+#number2_class {
+   position: relative;
+   width: 200px;
+   height: 300px;
+   background-color: rgb(115, 115, 115);
+   margin-right: 30px;
+   margin-top: 5px;
+}
+#name2_class {
+   position: relative;
+   width: 200px;
+   height: 100px;
+   background-color: rgb(255, 0, 179);
+   margin-right: 30px;
+   margin-top: 5px;
+
+}
+
+
+
+
+
+ /*discreption*/
+ .av_clas .background_classement .discreption {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 0, 221, 0);
+ }
+ 
